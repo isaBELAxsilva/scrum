@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: joao;
+    src: url(AlteHaasGroteskBold.ttf);
+  }
+
+p{
+    font-family: joao;
+    font-size: 25px;
+}
+
+.box {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+    width: 1519px;
+
+    
+}
+
+.boxkids {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 450px;
+    width: 1519px;
+    flex-direction: column;
+
+   
+}
+
+.boxkid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 800px;
+}
+
+.mao{
+    filter:brightness(0.4);
+
+    background-image: url(mao.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    position: absolute;
+}
+
+.kids{
+    filter:brightness(0.4);
+
+    background-image: url(https://cdn.discordapp.com/attachments/1135534576710713376/1135561993332478123/not.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+
+    position: absolute;
+}
+
+#sombra{
+    filter:brightness(0.4);
+}
+.box3 {
+    background-color: rgb(255, 209, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px;
+    
+}
+
+.box2 {
+width: 450px;
+height: 500px;
+background-color: rgb(243, 157, 183);
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+
+.box4 {
+    width: 450px;
+  
+  
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+    }
+
+#margin{
+    margin-left: 20px;
+}
+
+#vermeio{
+    margin: 20px;
+    font-size: 50px;
+}
+
+.site{
+    
+    display: flex;
+    justify-content: center;
+    
+
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cabe{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(207, 5, 5);
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+.cabefic{
+    
+    
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button1{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 100px;
+
+    transition: 0.25s;
+
+    z-index: 9;
+}
+
+
+.buttons{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    text-align: center;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 100px;
+
+    transition: 0.25s;
+
+    z-index: 9;
+    margin-right: 420px;
+    margin-top: 30px;
+
+}
+
+.button1:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.buttons:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+  .button4:active {
+    background-color: #969696;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .button1:active {
+    background-color: #969696;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .buttons:active {
+    background-color: #969696;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+.button4:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+.button4{
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    transition: 0.25s;
+
+}
+
+.senai{
+    width: 600px;
+}
+
+.fundo1{
+background-color: rgb(255, 209, 223);
+}
+
+#inf{
+    font-size: 15px;
+    margin: 20px;
+}
+
+#tit{
+    font-size: 40px;
+    margin: 0;
+}
+
+#tam{
+    font-size: 45px;
+}
+
+.borda{
+    width: 350px;
+    height: 275px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+#border{
+    border-radius: 25px;
+}
+
+#claro{
+    filter: brightness(1);
+    color: white;
+    font-size: 75px;
+}
+
+#claros{
+    filter: brightness(1);
+    color: white;
+    font-size: 75px;
+    margin-left: 40px;
+}
+
+.texto{
+    width: 900px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://webdesigndev.com/wp-content/uploads/2013/06/Subtle-Zebra-3D-Seamless-Pattern.jpg);
+   
+}
+
+#cont{
+    
+   
+    font-size: 30px;
+}
+
+#cont2{
+    
+    margin-left:125px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+#cont3{
+    
+    margin-left:75px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.box5 {
+    width: 450px;
+   
+    height: 250px;
+  
+  
+  
+        
+    }
+
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+
+img{
+    transition: 0.5s;
+}
